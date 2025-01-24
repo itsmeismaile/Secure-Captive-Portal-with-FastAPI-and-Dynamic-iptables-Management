@@ -11,7 +11,7 @@ This project implements a **captive portal** using FastAPI and `iptables` to tem
 - **Automatic expiration** of authorizations after a configurable time.
 - Architecture based on two modules:
   - `database.py`: User management and authentication server.
-  - `projet.py`: Captive portal with iptables rule management.
+  - `main.py`: Captive portal with iptables rule management.
 
 ## Prerequisites
 
